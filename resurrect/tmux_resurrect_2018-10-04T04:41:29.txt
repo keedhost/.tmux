@@ -1,0 +1,25 @@
+pane	jumpoff2	1	:jumpoff	0	:	1	:/home/INTERNAL/andrii.k	1	bash	:
+pane	jumpoff2	2	:wc82	0	:	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh mail.toymaster.com.au
+pane	jumpoff2	3	:wc44	0	:	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh wc44
+pane	jumpoff2	4	:wcp-cp1	0	:#	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh wpe-cp1
+pane	jumpoff2	5	:mailstore02	0	:	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh mailstore02
+pane	jumpoff2	6	:bb3	0	:	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh backblaze3
+pane	jumpoff2	7	:wc10	1	:*	1	:/home/INTERNAL/andrii.k	0	ssh	:ssh wc10
+pane	jumpoff2	7	:wc10	1	:*	2	:/home/INTERNAL/andrii.k	1	ssh	:
+pane	jumpoff2	8	:wc98	0	:-	1	:/home/INTERNAL/andrii.k	0	ssh	:ssh wc98
+pane	jumpoff2	8	:wc98	0	:-	2	:/home/INTERNAL/andrii.k	1	ssh	:
+pane	jumpoff2	9	:wc15	0	:	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh wc15
+pane	jumpoff2	10	:ssh	0	:	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh wc10
+pane	main	1	:bash	1	:*	1	:/home/INTERNAL/andrii.k	1	bash	:
+window	jumpoff2	1	0	:	b69d,204x52,0,0,0
+window	jumpoff2	2	0	:	b69f,204x52,0,0,2
+window	jumpoff2	3	0	:	5b85,204x52,0,0,16
+window	jumpoff2	4	0	:#	5b88,204x52,0,0,19
+window	jumpoff2	5	0	:	db7f,204x52,0,0,20
+window	jumpoff2	6	0	:	db80,204x52,0,0,21
+window	jumpoff2	7	1	:*	4405,204x52,0,0[204x32,0,0,23,204x19,0,33,33]
+window	jumpoff2	8	0	:-	adc9,204x52,0,0[204x31,0,0,27,204x20,0,32,34]
+window	jumpoff2	9	0	:	5b81,204x52,0,0,31
+window	jumpoff2	10	0	:	5b82,204x52,0,0,32
+window	main	1	1	:*	db88,204x52,0,0,29
+state	jumpoff2	main

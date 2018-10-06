@@ -1,0 +1,19 @@
+pane	main	1	:jumpoff	0	:	1	:/home/INTERNAL/andrii.k	1	bash	:
+pane	main	2	:wc82	0	:#	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh mail.toymaster.com.au
+pane	main	3	:bash	0	:	1	:/home/INTERNAL/andrii.k	1	bash	:
+pane	main	4	:wc01.syd02	0	:#	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh webcloud01.syd02.ds.network
+pane	main	5	:wcp-cp1	0	:#	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh wpe-cp1
+pane	main	6	:mailstore02	0	:	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh mailstore02
+pane	main	7	:bb3	0	:	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh backblaze3
+pane	main	8	:wc10	0	:#-	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh wc10
+pane	main	9	:ssh	1	:*	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh wc56
+window	main	1	0	:	bd3d,119x34,0,0,0
+window	main	2	0	:#	bd3f,119x34,0,0,2
+window	main	3	0	:	5ed5,119x34,0,0,16
+window	main	4	0	:#	5ed7,119x34,0,0,18
+window	main	5	0	:#	5ed8,119x34,0,0,19
+window	main	6	0	:	decf,119x34,0,0,20
+window	main	7	0	:	ded0,119x34,0,0,21
+window	main	8	0	:#-	ded2,119x34,0,0,23
+window	main	9	1	:*	ded3,119x34,0,0,24
+state	main	

@@ -1,0 +1,29 @@
+pane	jumpoff2	1	:wc2	1	:*	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh 203.170.86.201
+pane	jumpoff2	2	:wc1.au	0	:	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh wc1
+pane	jumpoff2	3	:wc10	0	:	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh wc10
+pane	jumpoff2	4	:puppet	0	:	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh puppet.development
+pane	jumpoff2	5	:wc1.dev.au	0	:	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh webcloud1.development.au
+pane	jumpoff2	6	:wc2.dev.au	0	:	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh webcloud2.development.au
+pane	jumpoff2	7	:wc1.dev.uk	0	:	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh webcloud1.development.uk.syrahost.com
+pane	jumpoff2	8	:wc2.dev.uk	0	:	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh webcloud2.development.uk.syrahost.com
+pane	jumpoff2	9	:wc44	0	:	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh wc44
+pane	jumpoff2	10	:bash	0	:-	1	:/home/INTERNAL/andrii.k	1	bash	:
+pane	jumpoff2	11	:ssh	0	:	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh webmailc2-w03
+pane	main	1	:bash	0	:	1	:/home/INTERNAL/andrii.k	1	bash	:
+pane	main	2	:bash	0	:-	1	:/home/INTERNAL/andrii.k	1	bash	:
+pane	main	3	:bash	1	:*	1	:/home/INTERNAL/andrii.k	1	bash	:
+window	jumpoff2	1	1	:*	b8dd,237x52,0,0,0
+window	jumpoff2	2	0	:	5ca5,237x52,0,0,16
+window	jumpoff2	3	0	:	dca2,237x52,0,0,23
+window	jumpoff2	4	0	:	5ca2,237x52,0,0,32
+window	jumpoff2	5	0	:	5ca8,237x52,0,0,38
+window	jumpoff2	6	0	:	5ca9,237x52,0,0,39
+window	jumpoff2	7	0	:	dca0,237x52,0,0,40
+window	jumpoff2	8	0	:	dca1,237x52,0,0,41
+window	jumpoff2	9	0	:	dca2,237x52,0,0,42
+window	jumpoff2	10	0	:-	dca3,237x52,0,0,43
+window	jumpoff2	11	0	:	dca4,237x52,0,0,44
+window	main	1	0	:	dda8,237x62,0,0,29
+window	main	2	0	:-	5da6,237x62,0,0,36
+window	main	3	1	:*	5da7,237x62,0,0,37
+state	jumpoff2	main

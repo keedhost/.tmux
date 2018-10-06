@@ -1,0 +1,7 @@
+pane	main	1	:bash	0	:-	1	:/home/INTERNAL/andrii.k	1	bash	:
+pane	main	2	:wc82	1	:*	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh mail.toymaster.com.au
+pane	main	3	:bash	0	:	1	:/home/INTERNAL/andrii.k	1	bash	:
+window	main	1	0	:-	b69d,204x52,0,0,0
+window	main	2	1	:*	b69f,204x52,0,0,2
+window	main	3	0	:	5b85,204x52,0,0,16
+state	main	

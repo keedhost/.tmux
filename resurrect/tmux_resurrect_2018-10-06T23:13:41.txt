@@ -1,0 +1,27 @@
+pane	jumpoff2	1	:webcloud01.syd02	0	:	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh root@halon-eu
+pane	jumpoff2	2	:wc2	0	:	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh wc2
+pane	jumpoff2	3	:wc10	0	:	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh wc10
+pane	jumpoff2	4	:wc1.dev.au	0	:M	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh webcloud1.development.au
+pane	jumpoff2	5	:wc2.dev.au	0	:	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh webcloud2.development.au
+pane	jumpoff2	6	:mailstore02	0	:	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh mailstore02
+pane	jumpoff2	7	:wc2.dev.uk	0	:	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh webcloud2.development.uk.syrahost.com
+pane	jumpoff2	8	:wc44	0	:	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh wc44
+pane	jumpoff2	9	:jumpoff2	0	:-	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh jumpoff1
+pane	jumpoff2	10	:ssh	1	:*	1	:/home/INTERNAL/andrii.k	1	ssh	:ssh webmailc2-w03
+pane	main	1	:bash	0	:	1	:/home/INTERNAL/andrii.k	1	bash	:
+pane	main	2	:bash	0	:-	1	:/home/INTERNAL/andrii.k	1	bash	:
+pane	main	3	:bash	1	:*	1	:/home/INTERNAL/andrii.k	1	bash	:
+window	jumpoff2	1	0	:	b8dd,237x52,0,0,0
+window	jumpoff2	2	0	:	5ca5,237x52,0,0,16
+window	jumpoff2	3	0	:	dca2,237x52,0,0,23
+window	jumpoff2	4	0	:M	5ca8,237x52,0,0,38
+window	jumpoff2	5	0	:	5ca9,237x52,0,0,39
+window	jumpoff2	6	0	:	dca0,237x52,0,0,40
+window	jumpoff2	7	0	:	dca1,237x52,0,0,41
+window	jumpoff2	8	0	:	dca2,237x52,0,0,42
+window	jumpoff2	9	0	:-	dca3,237x52,0,0,43
+window	jumpoff2	10	1	:*	dca6,237x52,0,0,46
+window	main	1	0	:	dda8,237x62,0,0,29
+window	main	2	0	:-	5da6,237x62,0,0,36
+window	main	3	1	:*	5da7,237x62,0,0,37
+state	jumpoff2	main
