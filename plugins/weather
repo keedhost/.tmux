@@ -30,6 +30,8 @@ weather_icon() {
   case $1 in
     500) echo 🌦
       ;;
+    701) echo туман
+      ;;
     800) echo ☀️
       ;;
     801) echo 🌤
